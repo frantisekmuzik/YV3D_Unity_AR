@@ -2,6 +2,8 @@
 
 ## [Prezentace](https://docs.google.com/presentation/d/1yr78qxF_FNwyZyHgeEm2Z07C7zaaVTGNtII7SNzERgI/edit?usp=sharing)
 
+``` Použitá verze Unity 2022.3.10f ```
+
 # Vytvoření hlavního menu aplikace a základní ovládání Unity
 
 ## 1. Import projektu
@@ -56,6 +58,47 @@
 ![](/img/img02.png)
 
 # Markerless AR
+
+- kontrola nastavení AR v *Build Setting* a *Player Settings*
+
+- kontrola nainstalovaných pluginů
+
+- vytvoření nové scény **MarkerlessAR**
+
+- přidání game objectů
+    - *AR Session* - řídí běh AR
+    - *XR Origin* - spravuje pozici a orientaci AR objektů v prostoru
+
+- do *XR Origin* se přidají komponenty
+    - *AR Plane Manager* - umožňuje detekovat rovné plochy (např. stoly, podlahy)
+    - *AR Raycast Manager* - umožňuje interakci s reálným světem, např. pokládání objektů na detekované plochy
+
+![](/img/img03.png)
+
+- vytvoření materiálu pro skenování ploch -> nový komponent *AR Default Plane*
+
+![](/img/img04.png)
+
+- vytvoření složky Prefabs, do které se přetažením vloží *AR Default Plane*
+
+- připnutí *AR Default Plane* do komponentu *AR Plane Manager*
+
+![](/img/img05.png)
+
+
+- vytvoření nebo přidání 3D modelu do složky Models
+
+- přidání skriptu zobrazující model *ARTapToPlaceObject*
+
+![](/img/img06.png)
+
+- přidání ovládání AR modelu pomocí pluginu [Lean Touch](https://assetstore.unity.com/packages/tools/input-management/lean-touch-30111)
+
+- přidání *EventSystem* do scény pro možnost zprovoznění dotykového ovládání
+
+- přidání LeanTouch gameobjectu pro ovládání dotyku
+
+![](/img/img07.png)
 
 
 # Location-based AR
