@@ -90,6 +90,8 @@
 
 - přidání skriptu zobrazující model *ARTapToPlaceObject*
 
+- smazat původní gameobject *MainCamera*
+
 ![](/img/img06.png)
 
 - přidání ovládání AR modelu pomocí pluginu [Lean Touch](https://assetstore.unity.com/packages/tools/input-management/lean-touch-30111)
@@ -100,5 +102,14 @@
 
 ![](/img/img07.png)
 
+- vložení komponent *Lean Pinch Scale* a *Lean Twist Rotate Axis* do modelu kostela - v Inspectoru
+
+- nastavení parametrů dle obrázku níže
+
+![](/img/img08.png)
+
+- **výsledek:** 
+
+![](/img/img09.png)
 
 # Location-based AR
