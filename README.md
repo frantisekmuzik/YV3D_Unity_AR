@@ -112,6 +112,6 @@
 
 
 
-<img src="/img/img09.png" alt="Popis obrázku" width="200" />
+<img src="/img/img09.png" alt="Popis obrázku" width="400" />
 
 # Location-based AR
