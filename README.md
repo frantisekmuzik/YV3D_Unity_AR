@@ -110,6 +110,7 @@
 
 - **výsledek:** 
 
-![](/img/img09.png)
+![](/img/img09.png){<img src="/img/img09.png" width="20" />}
+
 
 # Location-based AR
