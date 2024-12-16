@@ -110,7 +110,8 @@
 
 - **výsledek:** 
 
-![](/img/img09.png){<img src="/img/img09.png" width="20" />}
 
+
+<img src="/img/img09.png" alt="Popis obrázku" width="200" />
 
 # Location-based AR
