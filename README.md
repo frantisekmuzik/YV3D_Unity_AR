@@ -115,3 +115,7 @@
 <img src="/img/img09.png" alt="Popis obrázku" width="400" />
 
 # Location-based AR
+
+- využití Immersal SDK: https://immersal.com/
+
+- postup: https://developers.immersal.com/docs/unitysdk/tutorial/
